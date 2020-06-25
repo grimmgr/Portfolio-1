@@ -1,43 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Libre+Barcode+39+Text&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
     margin: 0;
     padding: 0;
+    color: rgba(255, 255, 255, 1);
 }
 
-/*
-img {
-    max-width: 300px;
-    margin: 20px auto;
-    text-align: center;
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: rgba(237, 180, 153, 0.712);
    
 }
-*/
-
 
 
 /* header */
 
 header {
-    padding-top: 15px;
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/10458548_2297783084681_7868346003732202088_n.jpg?_nc_cat=109&_nc_sid=e007fa&_nc_ohc=DyXu7_fsuuYAX9T8IA2&_nc_ht=scontent-sea1-1.xx&oh=a48f635e195cc9f616cd0e70e345b193&oe=5F18E242);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+    opacity: .9;
+    padding: 4% 0;
+    position: relative;
     width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    margin: auto;
 }
 
 h1 {
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: .3em;
+    position: relative;
     text-align: center;
 }
 
 nav {
-    margin: 10px auto;
+    margin: 0 auto;
     text-align: center;
 }
 
 ul {
     list-style: none;
-    padding: 10px 0;
+    padding-top: 10px;
     width: 100%;
 }
 
 li {
     display: inline;
     margin: 0 20px;
+    padding: 1px 5px;
+}
+
+/* main */
+
+.flex-container {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 2%;
+}
+
+main {
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/10351393_2297784364713_3522283241420665705_n.jpg?_nc_cat=106&_nc_sid=e007fa&_nc_ohc=mOGaNDcAmSgAX9Vq4qH&_nc_ht=scontent-sea1-1.xx&oh=cd5bb21054859a1a573248ca268f2b3e&oe=5F19EC36);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: scroll;
+    padding-top: 5%;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+a {
+    color: rgb(252, 243, 218);
+    font-weight: normal;
+}
+
+a:hover {
+    color: rgb(151, 222, 243);
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    text-align: left;
+}
+
+img {
+    opacity: .95;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 5%;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(247, 174, 125);
+    height: min-content;
+    position: fixed;
+    bottom: 0;
+    opacity: .95;
+    width: 100%;
+}
+
+.footer-icons {
+    padding-left: 50px;
+}
+
+.icon {
+    width: 30px;
+    margin: 4px 0;
+}
+
+
+/* Portfolio */
+
+.flex-card {
+    background-color: rgba(255, 255, 255, .5);
+    margin-bottom: 15px;
+    max-width: 250px;
+    text-align: center;
+    width: 90%;
+}
+
+.flex-card a {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 2.25rem;
+}
+
+
+/* Contact */
+
+.contact {
+    margin-top: 4%;
+}
+
+.btn-primary {
+    border-color: rgba(255, 255, 255, 1);
+}
+
+a.btn.btn-primary {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 500px) {
+    .flex-card {
+        margin: 20px;
+        max-width: 400px;
+    }
+    .flex-container {
+        justify-content: space-around;
+    }
+    .portfolio {
+        margin: 0 50px;
+    }
+
+    a {
+        font-size: 1.25rem;
+    }
+
+    #band-photo {
+        height: 300px;
+        
+    }
+    
+
+@media screen and (min-width: 1000px) {
+    .flex-card {
+        margin: 0px;
+        max-width: 250px;
+    }
+    .flex-container {
+        
+    }
+    .portfolio {
+        margin-top: 5%;
+    }
+
+    .bio {
+        margin-top: 4%;
+    }
+    #bio-pic {
+        max-width: 500px;
+    }
+    #band-photo {
+        height: 188px;
+        
+    }
+    
 }
