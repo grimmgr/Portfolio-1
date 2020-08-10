@@ -166,6 +166,10 @@ footer {
     margin-top: 4%;
 }
 
+.contact-info {
+    text-align: center;
+}
+
 .btn-primary {
     border-color: rgba(255, 255, 255, 1);
 }
@@ -173,8 +177,6 @@ footer {
 a.btn.btn-primary {
     background: rgba(0, 0, 0, 0.7);
 }
-
-/* Media Queries */
 
 @media screen and (min-width: 500px) {
     .flex-card {
@@ -196,6 +198,7 @@ a.btn.btn-primary {
         height: 300px;
         
     }
+}
     
 
 @media screen and (min-width: 1000px) {
@@ -203,9 +206,7 @@ a.btn.btn-primary {
         margin: 0px;
         max-width: 250px;
     }
-    .flex-container {
-        
-    }
+    
     .portfolio {
         margin-top: 5%;
     }
