@@ -194,10 +194,10 @@ a.btn.btn-primary {
         font-size: 1.25rem;
     }
 
-    #band-photo {
+    /* #band-photo {
         height: 300px;
         
-    }
+    } */
 }
     
 
@@ -217,9 +217,9 @@ a.btn.btn-primary {
     #bio-pic {
         max-width: 500px;
     }
-    #band-photo {
+    /* #band-photo {
         height: 188px;
         
-    }
+    } */
     
 }
