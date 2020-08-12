@@ -41,26 +41,27 @@ body {
 /* header */
 
 header {
-    align-items: center;
     background-color: rgba(148, 158, 161, .3);
     display: flex;
+    flex-direction: column;
     height: 20vh;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 4% 0 2% 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
 }
 
-/* .header {
-    margin: auto;
+/* .headerWrapper {
+    display: flex;
 } */
 
 h1 {
     font-family: 'Inconsolata', monospace;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: .3em;
-    padding: 0 5%;
+    padding: 0 10%;
     position: relative;
     text-align: center;
 }
