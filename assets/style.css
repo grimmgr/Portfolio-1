@@ -16,18 +16,35 @@ html {
 
 body {
     height: 100%;
-    background-color: rgba(237, 180, 153, 0.712);
+    /* background-color: rgba(237, 180, 153, 0.712); */
    
 }
 
+#backgroundVideo {
+    position: fixed;
+    top: -10%;
+    right: -25%;
+    width: 200%;
+    z-index: -2;
+}
+
+#background {
+    background-color: rgba(255, 255, 255, .3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
 
 /* header */
 
 header {
-    background-image: url(images/header.jpg);
+    /* background-image: url(images/header.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     height: 175px;
     opacity: .9;
     padding: 4% 0;
@@ -80,13 +97,13 @@ li {
 }
 
 main {
-    background-image: url(images/background.jpg);
+    /* background-image: url(images/background.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     overflow: scroll;
-    padding-top: 5%;
+    padding-top: 5%; */
 }
 
 section {
@@ -99,7 +116,7 @@ a {
 }
 
 a:hover {
-    color: rgb(151, 222, 243);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -125,11 +142,11 @@ p {
 /* Footer */
 
 footer {
-    background-color: rgb(247, 174, 125);
+    /* background-color: rgb(247, 174, 125); */
     height: min-content;
     position: fixed;
     bottom: 0;
-    opacity: .95;
+    /* opacity: .95; */
     width: 100%;
 }
 
@@ -193,11 +210,6 @@ a.btn.btn-primary {
     a {
         font-size: 1.25rem;
     }
-
-    /* #band-photo {
-        height: 300px;
-        
-    } */
 }
     
 
@@ -217,9 +229,5 @@ a.btn.btn-primary {
     #bio-pic {
         max-width: 500px;
     }
-    /* #band-photo {
-        height: 188px;
-        
-    } */
     
 }
