@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gretchen Grimm</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/style.css" >
 </head>
 <body>
@@ -17,74 +13,73 @@
     </video>
 
     <div id="background"></div>
+
     <header>
-        <!-- <div class="headerWrapper"> -->
         <h1>GRETCHEN GRIMM</h1>
 
         <nav>
             <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    <!-- </div> -->
     </header>
 
     <main>
         <div id="wrapper">
-        <!-- <section class="flex-container bio">
-            <div id=bio-pic class="flex-item">
-                <figure class="figure">
-                    <img class="rounded img-fluid" src="https://i0.wp.com/listensd.com/wp-content/uploads/2016/03/03022016_ChastityBelt_Portraits_44.jpg" />
-                </figure>
-            </div>
-            <div class="flex-item">  
-                <p>
-                        Sed diam augue, placerat id tortor quis, scelerisque mollis lectus. Praesent tristique porttitor congue.    Suspendisse at commodo eros, eget bibendum augue. 
-                <br>    
-                <br>
-                        Integer dictum, est ac egestas dapibus, dolor magna ultrices eros, in mattis orci nulla vitae sem. Fusce finibus    tellus sit amet finibus pellentesque.   
-                </p>
-            </div>
-        </section> -->
 
-        <section>
-            <h2 class="flex-item">PORTFOLIO</h2>
+          <section id="about">
 
-            <div class="portfolio flex-container">
-              
-              <div class="flex-card">
-                <img src="assets/images/seasons.png" class="card-img-top" alt="Web developer">
-                <div>
-                  <h3><a href="https://grimmgr.github.io/Seasons/" target="_blank">Seasons</a></h3>
-                </div>
-              </div>
-              
-              <div class="flex-card">
-                <img src="assets/images/totoro.png" class="card-img-top">
-                <div>
-                  <h3><a href="https://grimmgr.github.io/Totoro-Day-Planner/" target="_blank">Magnificent Day</a></h3>
-                </div>
+              <div>
+                  <img id=bio-pic src="assets/images/bio_pic.jpg" />
               </div>
 
-              <div class="flex-card">
-                <img src="assets/images/turnip.png" class="card-img-top">
-                <div>
-                  <h3><a href="https://sbhwang23.github.io/Turnip-Da-Beet/" target="_blank">Turnip Da Beet</a></h3>
-                </div>
-              </div>
+              <p>
+                I'm a musician and aspiring web developer.  Scope my some of my work and feel free to get in touch!
+              </p>
 
-              <div class="flex-card"> 
-                <img id="band-photo" src="assets/images/band.jpg" class="card-img-top rounded" alt="band photo">
-                <div>
-                    <h3><a href="https://www.chastitybeltmusic.com/" target="_blank">Music</a></h3>
-                </div>
-              </div>
+          </section>
 
-            </div>
-        </section>
-    </div>
+          <section id="portfolio">
+
+              <h2>PORTFOLIO</h2>
+                
+                <div class="card">
+                  <img src="assets/images/seasons.png" class="card-img-top" alt="Web developer">
+                  <div>
+                    <h3><a href="https://grimmgr.github.io/Seasons/" target="_blank">Seasons</a></h3>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <img src="assets/images/totoro.png" class="card-img-top">
+                  <div>
+                    <h3><a href="https://grimmgr.github.io/Totoro-Day-Planner/" target="_blank">Magnificent Day</a></h3>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/images/turnip.png" class="card-img-top">
+                  <div>
+                    <h3><a href="https://sbhwang23.github.io/Turnip-Da-Beet/" target="_blank">Turnip Da Beet</a></h3>
+                  </div>
+                </div>
+
+                <div class="card"> 
+                  <img id="band-photo" src="assets/images/band.jpg" class="card-img-top rounded" alt="band photo">
+                  <div>
+                      <h3><a href="https://www.chastitybeltmusic.com/" target="_blank">Music</a></h3>
+                  </div>
+                </div>
+
+          </section>
+
+          <section id="contact">
+            <p>email: ggrimm33@gmail.com</p>
+          </section>
+
+        </div>
     </main>
     
     <footer>
@@ -99,4 +94,5 @@
     <script src="https://kit.fontawesome.com/54a30ad539.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

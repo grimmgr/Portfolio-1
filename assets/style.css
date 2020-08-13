@@ -41,21 +41,17 @@ body {
 /* header */
 
 header {
-    background-color: rgba(148, 158, 161, .3);
+    background-color: rgba(230, 152, 132, 0.3);
     display: flex;
     flex-direction: column;
     height: 20vh;
     justify-content: space-between;
-    padding: 4% 0 2% 0;
+    padding: 8% 0 2% 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
 }
-
-/* .headerWrapper {
-    display: flex;
-} */
 
 h1 {
     font-family: 'Inconsolata', monospace;
@@ -84,20 +80,17 @@ li {
     padding: 1px 5px;
 }
 
+a {
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
 /* main */
-
-.flex-container {
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.flex-item {
-    width: 90%;
-    max-width: 400px;
-    margin: 0 2%;
-}
 
 main {
     height: 70vh;
@@ -107,18 +100,10 @@ main {
     top: 20vh;
 }
 
-section {
-    margin-bottom: 50px;
-}
+/* about */
 
-a {
-    color: rgb(252, 243, 218);
-    font-weight: normal;
-}
-
-a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+#bio-pic {
+    width: 100%;
 }
 
 h2 {
@@ -130,15 +115,48 @@ h2 {
 }
 
 img {
-    opacity: .95;
+    width: 100%;
 }
 
 p {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    background-color: rgba(88, 128, 74, 0.2);
     padding: 5%;
 }
 
+/* Portfolio */
+
+/* .card {
+    background-color: rgba(255, 255, 255, .5);
+    margin-bottom: 15px;
+    max-width: 250px;
+    text-align: center;
+    width: 90%;
+}
+
+.card a {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.25rem;
+} */
+
+
+/* Contact */
+
+.contact {
+    margin-top: 4%;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.btn-primary {
+    border-color: rgba(255, 255, 255, 1);
+}
+
+a.btn.btn-primary {
+    background: rgba(0, 0, 0, 0.7);
+}
 
 /* Footer */
 
@@ -158,42 +176,6 @@ footer {
 .icon {
     width: 30px;
     margin: 4px 0;
-}
-
-
-/* Portfolio */
-
-.flex-card {
-    background-color: rgba(255, 255, 255, .5);
-    margin-bottom: 15px;
-    max-width: 250px;
-    text-align: center;
-    width: 90%;
-}
-
-.flex-card a {
-    color: rgba(0, 0, 0, 0.8);
-    font-family: 'Libre Barcode 39 Text', cursive;
-    font-size: 2.25rem;
-}
-
-
-/* Contact */
-
-.contact {
-    margin-top: 4%;
-}
-
-.contact-info {
-    text-align: center;
-}
-
-.btn-primary {
-    border-color: rgba(255, 255, 255, 1);
-}
-
-a.btn.btn-primary {
-    background: rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (min-width: 500px) {
