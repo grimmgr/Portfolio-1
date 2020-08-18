@@ -16,7 +16,6 @@ html {
 
 body {
     height: 100%;
-    /* background-color: rgba(237, 180, 153, 0.712); */
    
 }
 
@@ -63,21 +62,19 @@ h1 {
 }
 
 nav {
-    margin: 0 auto;
-    text-align: center;
+    width: 100%
 }
 
 ul {
+    display: flex;
+    justify-content: space-around;
     list-style: none;
-    margin: 0;
-    padding-top: 10px;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
 }
 
 li {
     display: inline;
-    margin: 0 20px;
-    padding: 1px 5px;
 }
 
 a {
@@ -94,7 +91,6 @@ a:hover {
 
 main {
     height: 75vh;
-    /* margin-top: 175px; */
     overflow: scroll;
     position: fixed;
     top: 20vh;
@@ -102,9 +98,32 @@ main {
 
 /* about */
 
-#bio-pic {
+.wrapper {
+    height: 75vh;
+    padding: 5%;
     width: 100%;
 }
+
+p {
+    /* background-color: rgba(88, 128, 74, 0.2); */
+    font-size: 1.3rem;
+    padding: 5%;
+    text-shadow: 2px 2px 3px rgba(88, 128, 74, 0.2);
+}
+
+.emoji {
+    font-size: 1.5rem;
+}
+
+/* .bio-pic-wrapper {
+    width: 100%;
+}
+
+#bio-pic {
+    border-radius: 50%;
+    width: 50%;
+    margin: 0 auto;
+} */
 
 h2 {
     font-size: 1.25rem;
@@ -118,10 +137,7 @@ img {
     width: 100%;
 }
 
-p {
-    background-color: rgba(88, 128, 74, 0.2);
-    padding: 5%;
-}
+
 
 /* Portfolio */
 
