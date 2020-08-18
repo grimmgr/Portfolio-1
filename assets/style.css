@@ -88,7 +88,7 @@ h1 {
     font-family: 'Inconsolata', monospace;
     font-size: 1.8rem;
     letter-spacing: .3em;
-    padding: 0 10%;
+    padding: 0 15%;
     position: relative;
     text-align: center;
 }
@@ -178,12 +178,18 @@ a:hover {
 }
 
 .card {
+    align-items: center;
     background-color: rgba(88, 128, 74, 0.2);
+    display: flex;
     /* border: 1px solid rgba(255, 255, 255, .8); */
     height: 90%;
-    padding: 10%;
+    justify-content: center;
     text-align: center;
     width: 90%;
+}
+
+.content {
+    width: 70%;
 }
 
 img {
