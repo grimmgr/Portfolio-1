@@ -94,6 +94,7 @@ main {
     overflow: scroll;
     position: fixed;
     top: 20vh;
+    width: 100%;
 }
 
 /* about */
@@ -133,13 +134,69 @@ h2 {
     text-align: left;
 }
 
-img {
-    width: 100%;
-}
 
 
 
 /* Portfolio */
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+                'p .'
+                '. s'
+                'm s'
+                'm s'
+                'm .'
+                '. t'
+                'b t'
+                'b t'
+                'b .';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+    /* grid-template-areas: 
+                's m'
+                't b';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+}
+
+#portfolio-title {
+    grid-area: p;
+}
+
+#seasons {
+    grid-area: s;
+}
+
+#mag-day {
+    grid-area: m;
+}
+
+#turnip {
+    grid-area: t;
+}
+
+#band {
+    grid-area: b;
+}
+
+.card-wrapper {
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, .8);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    
+}
+
+img {
+    width: 90%;
+}
 
 /* .card {
     background-color: rgba(255, 255, 255, .5);
