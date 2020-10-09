@@ -37,7 +37,6 @@ body {
 }
 
 main {
-    border: 2px solid yellow;
     bottom: 40px;
     overflow-y: scroll;
     position: fixed;
@@ -47,8 +46,8 @@ main {
 }
 
 section {
-    border: 1px solid black;
     height: 100%;
+    padding: 5%;
     scroll-snap-align: start;
 }
 
