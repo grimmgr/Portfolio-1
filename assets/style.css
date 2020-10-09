@@ -37,17 +37,19 @@ body {
 }
 
 main {
-    height: 75vh;
-    overflow: scroll;
+    border: 2px solid yellow;
+    bottom: 40px;
+    overflow-y: scroll;
     position: fixed;
-    top: 20vh;
+    scroll-snap-type: y mandatory;
+    top: 150px;
     width: 100%;
 }
 
-.wrapper {
-    height: 75vh;
-    padding: 5%;
-    width: 100%;
+section {
+    border: 1px solid black;
+    height: 100%;
+    scroll-snap-align: start;
 }
 
 h2 {
@@ -78,13 +80,13 @@ header {
     background-color: rgba(230, 152, 132, 0.3);
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    height: 150px;
     justify-content: space-between;
     padding: 8% 0 2% 0;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 h1 {
@@ -123,10 +125,6 @@ a:hover {
 }
 
 /* Portfolio */
-
-#portfolio-wrapper {
-    margin-bottom: 50px;
-}
 
 #porfolio {
     padding: 20px 0;
@@ -229,7 +227,7 @@ footer {
     align-items: center;
     bottom: 0;
     display: flex;
-    height: 5vh;
+    height: 40px;
     position: fixed;
     justify-content: space-around;
     width: 100%;
