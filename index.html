@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gretchen Grimm</title>
     <link rel="stylesheet" href="assets/style.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/54a30ad539.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <video playsinline autoplay muted poster="assets/images/portfolio_background_poster.jpg" id="backgroundVideo">
@@ -30,54 +32,100 @@
           <p class="emoji">┬┴┤･ω･)ﾉ</p>
       </section>
     
-      <section id="portfolio" class="grid">
-        <div id="portfolio-title">
+      <section id="portfolio">
+
+        <div id="portfolio-header">
           <h2>PORTFOLIO</h2>
         </div>
-        <div id="seasons" class="card-wrapper">
-          <div class="card">
-            <!-- <div class="img-wrapper">
-              <img src="assets/images/seasons.png">
-            </div> -->
-            <div class="title-wrapper">
-              <h3><a href="https://grimmgr.github.io/Seasons/" target="_blank">Seasons</a></h3>
+
+        <div class="portfolio-wrapper grid">
+          <div class="card-wrapper">
+            <div id="cover-card" class="card dark">
+              
+              <div class="title-wrapper light">
+                <h2><</h2>
+                <p class="emoji">ヾ(･ε･*)ﾉﾞ =з</p>
+              </div>
+            </div>
           </div>
+          <div class="card-wrapper">
+            <div id="seven-card" class="card light">
+              <div class="title-wrapper dark">
+                <h3>se7en</h3>
+              </div>
+              <div class="vid-wrapper">
+                <iframe src="https://fast.wistia.net/embed/iframe/cmz7sicdl1?videoFoam=true"></iframe>
+              </div>
+              <p>A bucketlist app where users can track and explore things to do before the world ends</p>
+            </div>
           </div>
-        </div> 
-        <div id="mag-day" class="card-wrapper">
-          <div class="card">
-            <!-- <div class="img-wrapper">
-              <img src="assets/images/totoro.png">
-            </div> -->
-            <div class="title-wrapper">
-              <h3><a href="https://grimmgr.github.io/Totoro-Day-Planner/" target="_blank">Magnificent Day<a></h3>
+          <div class="card-wrapper">
+            <div id="seasons-card" class="card dark">
+              <div class="title-wrapper light">
+                <h3>Seasons</h3>
+              </div>
+              <div class="img-wrapper">
+                <img src="assets/images/seasons.png">
+              </div>
+              <p>A weather app for Justin Bieber fans</p>
+            </div>
+          </div>
+          <div class="card-wrapper"> 
+            <div id="cheeseburger-card" class="card light">
+              <div id="cheeseburger" class="title-wrapper dark">
+                <h3>Cheeseburger In Paradise</h3>
+              </div>
+              <div class="vid-wrapper">
+                <iframe src="https://fast.wistia.net/embed/iframe/3eaet5yln7?videoFoam=true"></iframe>
+              </div>
+              <p>A pointless app built with MySQL, Node, Express, Handlebars, and a homemade ORM</p>
+            </div>
+          </div>
+          <div class="card-wrapper">
+            <div id="employee-card" class="card dark">
+              <div id="employee" class="title-wrapper light">
+                <h3>Employee Tracker</h3>
+              </div>
+              <div class="vid-wrapper">
+                <iframe src="https://fast.wistia.net/embed/iframe/9cwv4en4wo?videoFoam=true"></iframe>
+              </div>
+              <p>A command-line content magagement system for employers</p>
+            </div>
+          </div>
+          <div class="card-wrapper">
+            <div id="turnip-card" class="card light">
+              <div id="turnip" class="title-wrapper dark">
+                <h3>Turnip Da Beet<h3>
+              </div>
+              <div class="img-wrapper">
+                <img src="assets/images/turnip.png">
+              </div>
+              <p>An app to search recipes and related songs</p>
+            </div>
+          </div>
+          <div class="card-wrapper">
+            <div id="mag-day-card" class="card dark">
+              <div id="mag-day" class="title-wrapper light">
+                <h3>Magnificent Day</h3>
+              </div>
+              <div class="img-wrapper">
+                <img src="assets/images/totoro.png">
+              </div>
+              <p>A Tororo themed day planner</p>
             </div>
           </div>
         </div>
-        <div id="turnip" class="card-wrapper">
-          <div class="card">
-            <!-- <div class="img-wrapper">
-              <img src="assets/images/turnip.png">
-            </div> -->
-            <div class="title-wrapper">
-              <h3><a href="https://sbhwang23.github.io/Turnip-Da-Beet/" target="_blank">Turnip Da Beet<a><h3>
-            </div>
-          </div>
-        </div>
-        <div id="band" class="card-wrapper"> 
-          <div class="card">
-            <!-- <div class="img-wrapper">
-              <img src="assets/images/cheeseburger.png">
-            </div> -->
-            <div class="title-wrapper">
-              <h3><a href="https://github.com/grimmgr/Cheeseburger-In-Paradise"  target="_blank">Cheeseburger In<br>Paradise</a></h3>
-            </div>
-          </div>
-        </div>
+
+        
+      
       </section>
+
+      <!-- <a href="https://grimmgr.github.io/Seasons/" target="_blank">Seasons</a>
+      <a href="https://grimmgr.github.io/Totoro-Day-Planner/" target="_blank">Magnificent Day</a>
+      <a href="https://sbhwang23.github.io/Turnip-Da-Beet/" target="_blank">Turnip Da Beet</a>
+      <a href="https://github.com/grimmgr/Cheeseburger-In-Paradise"  target="_blank">Cheeseburger In<br>Paradise</a> -->
             
       <section id="contact">
-        <h2>CONTACT</h2>
         <p>email me..</p>
         <p class="emoji">....〆(・∀・)</p>
         <p><a href="mailto: ggrimm33@gmail.com" target="_blank">ggrimm33@gmail.com</a></p>
@@ -91,7 +139,7 @@
         <a href="mailto: ggrimm33@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
     </footer>
 
-    <script src="https://kit.fontawesome.com/54a30ad539.js" crossorigin="anonymous"></script>
+    
 
 </body>
 
