@@ -37,11 +37,11 @@ body {
 }
 
 main {
-    bottom: 40px;
     overflow-y: scroll;
     position: fixed;
+    top: 120px;
+    bottom: 40px;
     scroll-snap-type: y mandatory;
-    top: 150px;
     width: 100%;
 }
 
@@ -84,11 +84,11 @@ header {
     background-color: rgba(230, 152, 132, 0.3);
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 120px;
     justify-content: space-between;
-    padding: 8% 0 2% 0;
-    position: fixed;
-    top: 0;
+    padding: 4% 0 2% 0;
+    /* position: fixed;
+    top: 0; */
     width: 100%;
     /* z-index: 1; */
 }
@@ -144,6 +144,7 @@ a:hover {
 }
 
 .portfolio-wrapper {
+    align-items: center;
     display: flex;
     flex-grow: 1;
     overflow-x: scroll;
@@ -154,15 +155,14 @@ a:hover {
 .card-wrapper {
     display: inline-block;
     flex-shrink: 0;
-    height: 100%;
-    padding: 5% 0 10% 0;
+    height: 450px;
     scroll-snap-align: start;
     width: 100%;
 }
 
 .card {
     height: 100%;
-    padding: 7% 5%;
+    padding: 5%;
     white-space: normal;
     width: 100%;
 }
@@ -180,7 +180,7 @@ a:hover {
     border: 1px solid rgba(255, 255, 255, .8);
     height: fit-content;
     margin: auto;
-    padding: 10px;
+    padding: 5px 10px;
     text-align: center;
     width: max-content;
 }
@@ -230,11 +230,13 @@ iframe {
 
 .card a {
     font-family: 'Inconsolata', monospace;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #cover-card {
-    padding-top: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 #cover-card p {
