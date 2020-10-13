@@ -228,6 +228,11 @@ iframe {
     width: 100%;
 }
 
+.card a {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.3rem;
+}
+
 #cover-card {
     padding-top: 40%;
 }
