@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/54a30ad539.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <video playsinline autoplay muted poster="assets/images/portfolio_background_poster.jpg" id="backgroundVideo">
+    <video playsinline autoplay loop muted poster="assets/images/portfolio_background_poster.jpg" id="backgroundVideo">
         <source src="assets/video/portfolio_background_720.webm" type="video/webm">
         <source src="assets/video/portfolio_background_720.mp4" type="video/mp4">
     </video>
@@ -34,7 +34,7 @@
     
       <section id="portfolio">
         <div class="portfolio-wrapper grid">
-          <div class="card-wrapper">
+          <div id="cover-wrapper" class="card-wrapper">
             <div id="cover-card" class="card dark">
               
               <div class="title-wrapper light">
@@ -49,8 +49,8 @@
               <div class="title-wrapper dark">
                 <a href="https://se-7-en.herokuapp.com/" target="_blank">se7en</a>
               </div>
-              <div class="vid-wrapper">
-                <iframe src="https://fast.wistia.net/embed/iframe/cmz7sicdl1?videoFoam=true"></iframe>
+              <div class="img-wrapper">
+                <img src="assets/images/se7en.png">
               </div>
               <p>A bucketlist app where users can track and explore things to do before the world ends</p>
             </div>
@@ -71,8 +71,8 @@
               <div id="cheeseburger" class="title-wrapper dark">
                 <a href="https://infinite-plains-28150.herokuapp.com/" target="_blank">Cheeseburger In Paradise</a>
               </div>
-              <div class="vid-wrapper">
-                <iframe src="https://fast.wistia.net/embed/iframe/3eaet5yln7?videoFoam=true"></iframe>
+              <div class="img-wrapper">
+                <img src="assets/images/cheeseburger.png">
               </div>
               <p>A pointless app built with MySQL, Node, Express, Handlebars, and a homemade ORM</p>
             </div>
@@ -82,8 +82,8 @@
               <div id="employee" class="title-wrapper light">
                 <a href="https://github.com/grimmgr/Employee-Tracker" target="_blank">Employee Tracker</a>
               </div>
-              <div class="vid-wrapper">
-                <iframe src="https://fast.wistia.net/embed/iframe/9cwv4en4wo?videoFoam=true"></iframe>
+              <div class="img-wrapper">
+                <img src="assets/images/employee-tracker.png">
               </div>
               <p>A command-line content magagement system for employers</p>
             </div>
