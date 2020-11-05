@@ -258,7 +258,7 @@ footer {
         z-index: -2;
     }
     #portfolio {
-        padding:10px;
+        padding:10px 5%;
     }
     .portfolio-wrapper {
         align-items: center;
@@ -271,25 +271,54 @@ footer {
     }
     .card-wrapper {
         display: block;
-        height: 280px;
-        margin-bottom: 5px;
-        width: 300px;
+        height: max-content;
+        margin: 5px 20px;
+        width: 200px;
     }
-
+    .title-wrapper {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .title-wrapper:hover {
+        cursor: pointer;
+    }
     .card p {
         font-size: 14px;
     }
     .img-wrapper {
-        margin: 10px auto;
-        width: 125px;
+        display: none;
     }
     #cover-wrapper {
         display: none;
     }
-
+    
+    #seven-card {
+        position: relative;
+    
+    }
+    #sunset-card {
+        position: relative;
+        
+    }
+    #cheeseburger-card {
+        position: relative;
+        right: 20px;
+    }
+    #seasons-card {
+        position: relative;
+        left: 20px;
+    }
+    #employee-card {
+        position: relative;
+    
+    }
+    #turnip-card {
+        position: relative;
+        
+    }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 815px) {
     #backgroundVideo {
         position: fixed;
         top: -10%;
@@ -297,5 +326,61 @@ footer {
         width: 100%;
         z-index: -2;
     }
+    .portfolio-wrapper {
+        margin: 0 auto;
+    }
+    .card-wrapper {
+        margin: 5px 10px;
+        width: 200px;
+    }
+    #cover-wrapper {
+        display: block;
+        position: absolute;
+        width: min-content;
+    }
+    #cover-wrapper h2 {
+        font-size: 18px;
+        margin: 5px auto 20px auto;
+        padding: 2px;
+    }
+    #cover-wrapper p {
+        font-size: 18px;
+    }
+    #cover-card {
+        background: transparent;
+        margin: 0 auto;
+        width: fit-content;
+    }
+    #cover-card .title-wrapper {
+        margin: 0;
+    }
+    #arrow {
+        display: none;
+    }
+    #go {
+        display: none;
+    }
+    #seven-card {
+        top: 20px;
+    }
+    #sunset-card {
+        top: -40px;
+    }
+    #cheeseburger-card {
+        top: 20px;
+    }
+    #seasons-card {
+        top: -20px;
+    }
+    #employee-card {
+        top: 40px;
+    }
+    #turnip-card {
+        top: -20px;
+    }
 }
-
+@media screen and (min-width: 990px) {
+    .portfolio-wrapper {
+        width: 877px;
+    }
+}
