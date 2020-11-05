@@ -258,7 +258,7 @@ footer {
         z-index: -2;
     }
     #portfolio {
-        padding:10px;
+        padding:10px 5%;
     }
     .portfolio-wrapper {
         align-items: center;
@@ -296,6 +296,72 @@ footer {
         left: 0;
         width: 100%;
         z-index: -2;
+    }
+    .card-wrapper {
+        height: max-content;
+        margin: 5px 10px;
+        width: 250px;
+    }
+    .title-wrapper {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .title-wrapper:hover {
+        cursor: pointer;
+    }
+    .img-wrapper {
+        display: none;
+    }
+    #cover-wrapper {
+        display: block;
+        position: absolute;
+        width: min-content;
+    }
+    #cover-wrapper h2 {
+        font-size: 18px;
+        margin: 5px auto 20px auto;
+        padding: 2px;
+    }
+    #cover-wrapper p {
+        font-size: 18px;
+    }
+    #cover-card {
+        background: transparent;
+        margin: 0 auto;
+        width: fit-content;
+    }
+    #cover-card .title-wrapper {
+        margin: 0;
+    }
+    #arrow {
+        display: none;
+    }
+    #go {
+        display: none;
+    }
+    #seven-card {
+        position: relative;
+        top: 20px;
+    }
+    #sunset-card {
+        position: relative;
+        top: -40px;
+    }
+    #cheeseburger-card {
+        position: relative;
+        top: 20px;
+    }
+    #seasons-card {
+        position: relative;
+        top: -20px;
+    }
+    #employee-card {
+        position: relative;
+        top: 40px;
+    }
+    #turnip-card {
+        position: relative;
+        top: -20px;
     }
 }
 
