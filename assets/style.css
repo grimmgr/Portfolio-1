@@ -271,36 +271,9 @@ footer {
     }
     .card-wrapper {
         display: block;
-        height: 280px;
-        margin-bottom: 5px;
-        width: 300px;
-    }
-
-    .card p {
-        font-size: 14px;
-    }
-    .img-wrapper {
-        margin: 10px auto;
-        width: 125px;
-    }
-    #cover-wrapper {
-        display: none;
-    }
-
-}
-
-@media screen and (min-width: 900px) {
-    #backgroundVideo {
-        position: fixed;
-        top: -10%;
-        left: 0;
-        width: 100%;
-        z-index: -2;
-    }
-    .card-wrapper {
         height: max-content;
-        margin: 5px 10px;
-        width: 250px;
+        margin: 5px 20px;
+        width: 200px;
     }
     .title-wrapper {
         max-width: 100%;
@@ -309,8 +282,56 @@ footer {
     .title-wrapper:hover {
         cursor: pointer;
     }
+    .card p {
+        font-size: 14px;
+    }
     .img-wrapper {
         display: none;
+    }
+    #cover-wrapper {
+        display: none;
+    }
+    
+    #seven-card {
+        position: relative;
+    
+    }
+    #sunset-card {
+        position: relative;
+        
+    }
+    #cheeseburger-card {
+        position: relative;
+        right: 20px;
+    }
+    #seasons-card {
+        position: relative;
+        left: 20px;
+    }
+    #employee-card {
+        position: relative;
+    
+    }
+    #turnip-card {
+        position: relative;
+        
+    }
+}
+
+@media screen and (min-width: 815px) {
+    #backgroundVideo {
+        position: fixed;
+        top: -10%;
+        left: 0;
+        width: 100%;
+        z-index: -2;
+    }
+    .portfolio-wrapper {
+        margin: 0 auto;
+    }
+    .card-wrapper {
+        margin: 5px 10px;
+        width: 200px;
     }
     #cover-wrapper {
         display: block;
@@ -340,28 +361,26 @@ footer {
         display: none;
     }
     #seven-card {
-        position: relative;
         top: 20px;
     }
     #sunset-card {
-        position: relative;
         top: -40px;
     }
     #cheeseburger-card {
-        position: relative;
         top: 20px;
     }
     #seasons-card {
-        position: relative;
         top: -20px;
     }
     #employee-card {
-        position: relative;
         top: 40px;
     }
     #turnip-card {
-        position: relative;
         top: -20px;
     }
 }
-
+@media screen and (min-width: 990px) {
+    .portfolio-wrapper {
+        width: 877px;
+    }
+}
